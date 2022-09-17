@@ -1,6 +1,6 @@
 Preview | نتیجه ی کار 😊😉
 
-https://codingwithenjoy.github.io/Calculator-HTML-CSS
+https://codingwithenjoy.github.io/Calculator
 
 اگه خوشتون اومد حتما پیج ما رو فالو کنید @codingwithenjoy
 
