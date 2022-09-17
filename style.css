@@ -1,0 +1,68 @@
+body {
+    background: rgb(123, 0, 255);
+    background: -moz-linear-gradient(90deg, rgba(123, 0, 255, 1) 0%, rgba(226, 0, 255, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(123, 0, 255, 1) 0%, rgba(226, 0, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(123, 0, 255, 1) 0%, rgba(226, 0, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7b00ff", endColorstr="#e200ff", GradientType=1);
+}
+
+#calc-contain {
+    position: relative;
+    height: 440px;
+    width: 500px;
+    border: 6px solid #ff00fb;
+    border-radius: 11px;
+    margin: 100px auto;
+    background-color: #ffffff;
+    padding: 20px 20px 100px 20px;
+    box-shadow: 0 1px 8px rgb(0, 0, 0);
+}
+
+#intrd {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+}
+
+#intrd p {
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+}
+
+input[type=button] {
+    background: #bd59ff;
+    font-size: 35px;
+    width: 70px;
+    height: 60px;
+    color: rgb(246, 227, 255);
+    font-weight: bolder;
+    border-radius: 9px;
+    margin: 26px;
+    border: 4px solid #9000ff;
+    box-shadow: 0 1px 8px rgb(115, 0, 255);
+    transition: .5s;
+}
+
+input[type=button]:hover {
+    display: inline;
+    transform: translateY(5px) scale(125%, 125%);
+}
+
+input[type=button]:active {
+    display: inline;
+    transform: translateY(5px) scale(125%, 125%);
+    background-color: #9000ff;
+}
+
+input[type=text] {
+    position: relative;
+    display: block;
+    width: 85%;
+    margin: 5px auto;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: 0 1px 8px rgb(128, 0, 255);
+    border-radius: 9px;
+    border: 6px solid #ff00fb;
+}
